@@ -4017,7 +4017,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.Platform.Acts.SimulateControl,
 		C3.Plugins.Touch.Cnds.OnTapGestureObject,
 		C3.Plugins.Sprite.Acts.Destroy,
-		C3.Plugins.Touch.Cnds.OnPermissionGranted,
 		C3.Plugins.video.Acts.SetSource,
 		C3.Plugins.Keyboard.Cnds.OnAnyKey,
 		C3.Plugins.Touch.Cnds.OnTouchObject
