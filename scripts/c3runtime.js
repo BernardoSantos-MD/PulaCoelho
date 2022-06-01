@@ -4017,7 +4017,10 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.Platform.Acts.SimulateControl,
 		C3.Plugins.Touch.Cnds.OnTapGestureObject,
 		C3.Plugins.Sprite.Acts.Destroy,
-		C3.Plugins.video.Acts.SetSource
+		C3.Plugins.Touch.Cnds.OnPermissionGranted,
+		C3.Plugins.video.Acts.SetSource,
+		C3.Plugins.Keyboard.Cnds.OnAnyKey,
+		C3.Plugins.Touch.Cnds.OnTouchObject
 	];
 };
 self.C3_JsPropNameTable = [
@@ -4059,7 +4062,8 @@ self.C3_JsPropNameTable = [
 	{Partículas: 0},
 	{Vídeo: 0},
 	{Persistir: 0},
-	{Sprite: 0},
+	{bunny: 0},
+	{close: 0},
 	{player1avatar: 0}
 ];
 }
@@ -4239,7 +4243,8 @@ self.C3_ExpressionFuncs = [
 			const n4 = p._GetNode(4);
 			return () => f0(C3.distanceTo(f1(), f2(), n3.ExpObject(), n4.ExpObject()), 50);
 		},
-		() => "dancinha_final_webm.webm"
+		() => "dancinha_final.webm",
+		() => 187
 ];
 
 
